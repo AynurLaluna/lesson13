@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Feedback Form</h1>
+        <div class="formCard">
+            <div class="top">
+                <i class="fa-solid fa-x" id="cancel"></i>
+                <h3>Send us your feedback!</h3>
+                <p>Do you have a suggestion or found some bug? <br>let us know in the field bellow.
+                </p>
+            </div>
+            <div class="bottom">
+                <h4>How was your experience?</h4>
+                <i class="fa-regular fa-face-smile faces"></i>
+                <i class="fa-regular fa-face-frown faces"></i>
+                <i class="fa-regular fa-face-meh faces"></i> <br>
+                <textarea placeholder="Describe your experience here.." id="text_area"></textarea>
+                <div class="radio">
+                    <input type="radio" name="experience" id="bug">
+                    <label for="bug">Bug</label>
+                    <input type="radio" name="experience" id="suggest">
+                    <label for="suggest">Suggestion</label>
+                    <input type="radio" name="experience" id="other">
+                    <label for="other">Others</label>
+                </div>
+                <button type="submit">Send Feedback</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

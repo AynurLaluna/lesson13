@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, #497899 56%, #fff 30%);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #497899;
+    margin-top: 50px;
+
+}
+
+.formCard {
+    width: 360px;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #497899 20% #fff, 80%);
+}
+
+.top {
+    background-color: #497899;
+    width: 100%;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+#cancel {
+    position: absolute;
+    left: 310px;
+    top: -5px;
+}
+
+h3 {
+    margin: 40px 0 20px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 14px;
+    ;
+}
+
+.bottom {
+    background-color: white;
+
+}
+
+h4,
+i {
+    margin: 20px;
+}
+
+h4 {
+    margin: 0 0 0 20px;
+    line-height: 4;
+}
+
+
+.faces {
+    margin: 0 20px 20px 20px;
+    color: #d3d3d3;
+}
+
+.faces:hover {
+    color: orange;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 250, 255);
+}
+
+textarea::placeholder {
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 0 20px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+}
+
+input[type='radio'] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 10px 20px;
+}
+
+label {
+    color: #444868;
+    font-size: 14px;
+}
+
+button {
+    width: 318px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #497899;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
